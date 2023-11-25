@@ -1,7 +1,11 @@
 # SSD_Nat_Flowers_User_Info
-School project for Secure Software Development ethical hack. This gets all userIds from comments and finds all of the personal information related to them.
+School project for Secure Software Development ethical hack. There are 2 section to this project.
+1. bash scripts inside of the scripts/ folder that use cURL to send various requests to the server
+2. A program that gets all userIds from the /reviews endpoint, then takes those userIds and constructs a get request to the /profile/{userId} endpoint for each userId. This shows all user info associated with that user.
 
-# How to use this Project
+**This is not a production website, and this user information is not real. This is for testing purposes only.**
+
+# How to use the program to see user data
 This code can be ran on any computer using the following instructions
 1. Install Rust and Cargo. This can be done by following the instructions [Here.](https://www.rust-lang.org/tools/install)
 2. Clone this repository to you local machine.
