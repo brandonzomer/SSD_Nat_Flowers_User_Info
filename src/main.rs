@@ -10,7 +10,7 @@ use tokio::runtime::Runtime;
 struct Review {
     id: u8,
     comment: String,
-    rating: u8,
+    rating: u32,
     user_id: String,
     item_id: u8,
 }
