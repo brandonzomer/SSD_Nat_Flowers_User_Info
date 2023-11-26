@@ -16,3 +16,5 @@ This program executes the following instructions.
 1. Make a get request to the /review endpoint. This shows all reviews in the database. These reviews contain the userId.
 2. De-serialize json data from reviews and get a list of unique userIds.
 3. Make a get request to /profile/{userId} for each unique userId. This request will return all user information about the user with that userId.
+
+#### **A sample of the user info that can be collected can be seen in the `text` file within this git repo.**
