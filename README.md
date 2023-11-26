@@ -1,6 +1,6 @@
 # SSD_Nat_Flowers_User_Info
 School project for Secure Software Development ethical hack. There are 2 section to this project.
-1. bash scripts inside of the scripts/ folder that use cURL to send various requests to the server
+1. bash scripts inside of the scripts/ folder that use cURL to send various requests to the server. These are completely independant of the other program, and are what I used for testing access to API endpoints.
 2. A program that gets all userIds from the /reviews endpoint, then takes those userIds and constructs a get request to the /profile/{userId} endpoint for each userId. This shows all user info associated with that user.
 
 **This is not a production website, and this user information is not real. This is for testing purposes only.**
