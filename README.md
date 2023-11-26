@@ -10,3 +10,9 @@ This code can be ran on any computer using the following instructions
 1. Install Rust and Cargo. This can be done by following the instructions [Here.](https://www.rust-lang.org/tools/install)
 2. Clone this repository to you local machine.
 3. Navigate to where the repository has been cloned to and run the command `cargo run`
+
+### How are we getting the user data?
+This program executes the following instructions.
+1. Make a get request to the /review endpoint. This shows all reviews in the database. These reviews contain the userId.
+2. De-serialize json data from reviews and get a list of unique userIds.
+3. Make a get request to /profile/{userId} for each unique userId. This request will return all user information about the user with that userId.
