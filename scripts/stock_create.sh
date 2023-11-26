@@ -2,7 +2,7 @@
 
 url="https://naturalflowersas.azurewebsites.net/stock/add"
 
-curl -X POST $url \
+curl -X POST https://naturalflowersas.azurewebsites.net/stock/add \
     -H "Content-Type: application/json" \
     -d '{
             "stripeId":	"asdfsadf",
